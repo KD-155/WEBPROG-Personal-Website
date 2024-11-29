@@ -1,9 +1,13 @@
 body {
-    background-color: purple;
+    background-image: url = "https://wallpapertag.com/wallpaper/full/f/8/7/118465-free-download-neutral-background-2400x1500-computer.jpg";
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;;
   }
   
   h1 {
-    color: white;
+    color: black;
     text-align: center;
   }
   
