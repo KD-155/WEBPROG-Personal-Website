@@ -37,19 +37,10 @@ p {
 }
 
 img {
-  width: 100%;
-  max-width: 150px;
-  height: auto;
-  display: block;
-  margin: 10px auto;
-  border-radius: 6px;
-  border: 1px solid #471a1a;
-}
-
-table {
   max-width: 300px;
   max-height: 300px;
   object-fit: cover;
   border-radius: 6px;
   border: 1px solid #471a1a;
 }
+
