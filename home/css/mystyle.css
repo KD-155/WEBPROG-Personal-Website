@@ -44,4 +44,12 @@ img {
   margin: 10px auto;
   border-radius: 6px;
   border: 1px solid #471a1a;
+
+table img {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #471a1a;
+}
 }
