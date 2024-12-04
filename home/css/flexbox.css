@@ -12,13 +12,6 @@
   font-size: 20px;
 }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: lightblue;
-  font-family: "Comfortaa", sans-serif;
-  flex-direction: column;
-}
 
 .sub-container {
   background-color: #f1f1f1;
