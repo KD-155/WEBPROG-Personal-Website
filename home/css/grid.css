@@ -1,0 +1,27 @@
+.item1 { grid-area: about; }
+.item2 { grid-area: educ; }
+.item3 { grid-area: course; }
+.item4 { grid-area: it; }
+.item5 { grid-area: hobby; }
+.item6 {grid-area: goals}
+.item7 {grid-area: gallery}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'about about about about about about'
+  'educ educ hobby hobby goals goals'
+  'educ educ hobby hobby goals goals'
+  'course course course it it it'
+  'gallery gallery gallery gallery gallery gallery';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
