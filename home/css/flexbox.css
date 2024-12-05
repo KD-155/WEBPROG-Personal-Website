@@ -1,21 +1,53 @@
+.header-image {
+  padding-bottom:20px;
+  height: 567px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 378px;
+}
 .flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: DodgerBlue;
-}
- 
-.flex-container > div {
-  background-color: #f1f1f1;
-  margin: 10px;
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-}
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+    flex-direction: column;
+  }
+   
+  .flex-container > .information {
+    background-color: #f1f1f1;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  
+  h2, h3 {
+    text-align: center;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+  }
 
-h2 {
-  text-align: center;
-}
+ .gallery  > .image {
 
-img {
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+ }
 
+
+
+
+
+.k1, .k2, .k3, .k4, .k5 {
+  width: 300px;
+  height: 425px;
 }
