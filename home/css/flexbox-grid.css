@@ -1,31 +1,41 @@
-/* Grid Container */
 .grid-container {
     display: grid;
     grid-template-areas:
       "about about about about about about"
       "educ educ hobby hobby goals goals"
-      "educ educ hobby hobby goals goals"
       "course course course it it it"
       "gallery gallery gallery gallery gallery gallery";
     gap: 10px;
-    padding: 10px;
     background-color: #2196F3;
+    padding: 10px;
   }
   
   .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 8px;
     text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 8px;
   }
   
-  /* Flexbox for Inner Layouts */
-  .item1, .item2, .item3, .item4, .item5, .item6, .item7 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  /* Assign grid areas to each item */
+  .item1 { grid-area: about; }
+  .item2 { grid-area: educ; }
+  .item3 { grid-area: course; }
+  .item4 { grid-area: it; }
+  .item5 { grid-area: hobby; }
+  .item6 { grid-area: goals; }
+  .item7 { grid-area: gallery; }
+  
+  /* Styles for images in the "ABOUT ME" section */
+  .item1 img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
   }
   
+  /* Gallery styles */
   .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -34,13 +44,6 @@
   }
   
   .gallery .image img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 5px;
-  }
-  
-  .item1 img {
     width: 300px;
     height: 300px;
     object-fit: cover;
