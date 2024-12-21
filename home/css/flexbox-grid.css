@@ -6,12 +6,12 @@
     "course course course it it it"
     "gallery gallery gallery gallery gallery gallery";
   gap: 10px;
-  background-color: #2196F3;
+  background-color: rgb(231, 178, 178);
   padding: 10px;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #471a1a;
   text-align: center;
   padding: 20px;
   font-size: 18px;
@@ -56,12 +56,12 @@
       "course course course it it it"
       "gallery gallery gallery gallery gallery gallery";
     gap: 10px;
-    background-color: #2196F3;
+    background-color: #471a1a;
     padding: 10px;
   }
   
   .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #471a1a;
     text-align: center;
     padding: 20px;
     font-size: 18px;
