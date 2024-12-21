@@ -61,7 +61,7 @@
   }
   
   .grid-container > div {
-    background-color: #471a1a;
+    background-color: rgb(231, 178, 178);
     text-align: center;
     padding: 20px;
     font-size: 18px;
