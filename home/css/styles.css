@@ -303,6 +303,21 @@ figure {
   margin: 0 0 1rem;
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery .image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(107, 60, 60, 0.8);
+}
+
 img,
 svg {
   vertical-align: middle;
