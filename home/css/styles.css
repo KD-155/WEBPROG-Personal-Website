@@ -318,6 +318,10 @@ figure {
   box-shadow: 0 4px 6px rgba(107, 60, 60, 0.8);
 }
 
+.gallery-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+
 .alt-text {
   margin-top: 8px;
   font-size: 14px;
