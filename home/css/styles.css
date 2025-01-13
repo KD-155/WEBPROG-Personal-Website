@@ -649,7 +649,9 @@ progress {
 .container-sm {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
-  max-height: 100%;
+  height:auto;
+min-height: 100%;
+max-height: 100%;
   width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -4192,7 +4194,9 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
-  max-height: 100%;
+  height:auto;
+min-height: 100%;
+max-height: 100%;
 }
 .card > hr {
   margin-right: 0;
@@ -4221,7 +4225,10 @@ textarea.form-control-lg {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
-  max-height: 100%;
+  min-height: 100%;
+height:auto;
+min-height: 100%;
+max-height: 100%;
 }
 
 .card-title {
@@ -7043,7 +7050,9 @@ textarea.form-control-lg {
 
 .d-flex {
   display: flex !important;
-  max-height: 100%;
+  height:auto;
+min-height: 100%;
+max-height: 100%;
 }
 
 .d-inline-flex {
