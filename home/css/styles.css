@@ -7692,6 +7692,8 @@ max-height: 100%;
 
 .mb-4 {
   margin-bottom: 1.5rem !important;
+  height: 270%;
+  max-height: none;
 }
 
 .mb-5 {
