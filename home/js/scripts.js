@@ -11,10 +11,10 @@ const galleryApp = Vue.createApp({
         return {
             showGallery: true,
             images: [
-                { src: "Image 1.jpg", alt: " 1 " },
-                { src: "Image 2.jpg", alt: " 2 " },
-                { src: "Image 3.jpg", alt: " 3 " },
-                { src: "Image 4.jpg", alt: " 4 " },
+                { src: "Image 1.jpg", alt: " Rizal Outing " },
+                { src: "Image 2.jpg", alt: " BingBong the Doggo " },
+                { src: "Image 3.jpg", alt: " Lucky Cat " },
+                { src: "Image 4.jpg", alt: " 💜 " },
             ],
         };
     },
