@@ -193,8 +193,8 @@
             </div>
             <div v-if="showGallery" class="row gx-5 justify-content-center">
                 <div v-for="(image, index) in images" :key="index" class="col-lg-3 mb-4">
-                    <div class="card">
-                        <img :src="image.src" :alt="image.alt" class="card-img-top" />
+                    <div class="card gallery-card">
+                        <img :src="image.src" :alt="image.alt" class="card-img-top gallery-image" />
                         <div class="card-body">
                             <p class="alt-text">{{ image.alt }}</p>
                         </div>

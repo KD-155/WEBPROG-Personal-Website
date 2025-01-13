@@ -315,13 +315,14 @@ figure {
   height: 300px;
   object-fit: cover;
   border-radius: 15px;
-  box-shadow: 0 4px 6px rgba(107, 60, 60, 0.8);
+  box-shadow: 0 4px 6px #555;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.gallery-image:hover {
+.gallery img:hover {
   transform: scale(1.1);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 12px #333;
+}
 
 .alt-text {
   margin-top: 8px;
