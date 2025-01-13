@@ -5,3 +5,23 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+const galleryApp = Vue.createApp({
+    data() {
+        return {
+            showGallery: true,
+            images: [
+                { src: "Image 1.jpg", alt: "Gallery Image 1" },
+                { src: "Image 2.jpg", alt: "Gallery Image 2" },
+                { src: "Image 3.jpg", alt: "Gallery Image 3" },
+                { src: "Image 4.jpg", alt: "Gallery Image 4" },
+            ],
+        };
+    },
+    methods: {
+        toggleGallery() {
+            this.showGallery = !this.showGallery;
+        },
+    },
+});
+galleryApp.mount('#galleryApp');
