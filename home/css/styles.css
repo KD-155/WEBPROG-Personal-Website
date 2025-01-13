@@ -318,6 +318,14 @@ figure {
   box-shadow: 0 4px 6px rgba(107, 60, 60, 0.8);
 }
 
+.alt-text {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+  font-weight: bold;
+  text-align: center;
+}
+
 img,
 svg {
   vertical-align: middle;
