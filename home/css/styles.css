@@ -316,6 +316,7 @@ figure {
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(107, 60, 60, 0.8);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .gallery-image:hover {
