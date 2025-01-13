@@ -7042,6 +7042,7 @@ textarea.form-control-lg {
 
 .d-flex {
   display: flex !important;
+  max-height: 100%;
 }
 
 .d-inline-flex {
